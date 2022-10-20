@@ -1,0 +1,15 @@
+
+CONTENIDOS DEL CURSO
+    - DOM: Document Object Model
+    - Eventos: capturar eventos del usuario
+    - JSON
+    - LocalStorage
+    - Promesas: peticiones asíncronas
+    - Operaciones matemáticas y lógicas
+    - Control de flujo
+    - Funciones
+    - NodeJS
+    - MongoDB
+    - RESTFUL API
+    - Serverless
+    - Proyectos

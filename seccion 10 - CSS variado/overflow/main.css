@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+}
+
+#overflow {
+    width: 100px;   /* Ancho */
+    height: 100px;  /* Alto */
+
+    /* Propiedades para el contenido que quede fuera del ancho y alto*/
+    overflow: auto;
+}

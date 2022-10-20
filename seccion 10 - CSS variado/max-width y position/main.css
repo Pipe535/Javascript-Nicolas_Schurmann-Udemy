@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    max-width: 50px;   /* Indicar un ancho máximo de etiqueta <p> */
+    background-color: bisque;
+    margin: auto;      /* Contenido centrado en la pagina */
+
+    position: fixed;   /* Contenido pegado dentro de la página, aunque se le haga scrol */
+
+}

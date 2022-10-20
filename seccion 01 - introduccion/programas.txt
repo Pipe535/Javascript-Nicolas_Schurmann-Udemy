@@ -1,0 +1,6 @@
+
+PROGRAMAS PARA EL CURSO
+    - Algún editor de texto favorito
+    - Postman
+    - NodeJS
+    - Google Chrome

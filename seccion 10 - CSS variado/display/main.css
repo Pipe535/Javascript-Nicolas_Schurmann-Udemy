@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+}
+
+/*
+    Cambiar la propiedad display de las etiquetas
+
+    display: inline;  los suma a la derecha 
+    display: none;    Lo vuelve invisible 
+    display: block; los apila uno encima de otro 
+*/
+
+span {
+    display: block;
+}

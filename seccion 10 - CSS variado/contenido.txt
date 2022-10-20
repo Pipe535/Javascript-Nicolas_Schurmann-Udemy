@@ -1,0 +1,10 @@
+
+CONTENIDOS DE LA SECCION 10 
+
+1. Display
+2. max-width
+3. position
+4. overflow
+5. float
+6. más selectores
+7. opacidad

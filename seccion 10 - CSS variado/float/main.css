@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+img {
+    float: left; /* Las imagenes quedan pegadas a la izquierda */
+    opacity: 0.5;  /* Opacidad de la imagen, valores del 0 al 1 */
+}
+
+/* Para todas las etiquetas <p> dentro de los <div> */
+div p {
+    color: red;
+}

@@ -1,0 +1,27 @@
+
+/* 
+    Selectores 
+    La etiqueta 'body' en html tendrá las siguientes propiedades
+*/
+body {
+    background-color: darkcyan; /*Fondo*/
+    /* color: lightsalmon;         Color letra */
+}
+
+/*
+    id
+    Entregar un identificador unico a un elemento de html
+*/
+#parrafo {
+    color: blue;
+}
+
+/*
+    class
+    Una composicion sobre un elemento de html o compartir las propiedades
+    sobre varios elementos de html
+*/
+.etiqueta {
+    color: darkorange;
+    background-color: black;
+}

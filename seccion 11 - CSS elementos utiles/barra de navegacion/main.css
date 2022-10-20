@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;      /* Eliminar puntos */
+    margin: 0;                  /* Margin en 0px */
+    padding: 0;                 /* Padding en 0px */
+    overflow: hidden;           /* No mostrar elementos que esten fuera del ancho y alto */
+    position: fixed;            /* Posicion fija en la pagina al hacer scrol */
+    top: 0;                     /* Se quedará pegano en la parte superior de la pagina */ 
+    left: 0;                    /* Quitar espacio a la izquierda */
+    width: 100%;                /* Ocupar todo el ancho disponible */
+    background-color: blue;   /* Color de fondo azul */
+}
+
+li {
+    float: left;    /* Elementos pegados unos al lado del otro */
+}
+
+li a {
+    display: block;         /* Ocupar todo el ancho disponible */
+    color: white;         /* Color blanco de las letras */
+    text-align: center;     /*Texto centrado*/
+    padding: 14px;          /* Separacion de los elementos */
+    text-decoration: none;  /* Quitar subrayado de las letras */
+}
+
+li:hover {
+    background-color: blueviolet;   /* Color cuando se coloce el mouse encima */
+}
+
+.active {
+    background-color: green;        /* PAgina activa de color verde */
+}
+
+.content {
+    margin-top: 55px;   /* Mover el contenido debajo de la barra de navegacion */
+}

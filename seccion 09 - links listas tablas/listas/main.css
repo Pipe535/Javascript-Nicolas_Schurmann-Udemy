@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+/*
+    Seleccionar un elemento que se encuentra dentro de otro elemento.
+    En este caso 'li' está dentro de 'ul'
+
+ul li {
+    list-style-type: upper-alpha;  Cambiar tipo de puntero de lista 
+}
+*/
+
+ul {
+    list-style-type: none; /*Cambiar tipo de puntero de lista */
+    background-color: bisque;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: solid 2px black; /* Separacion de los elementos */
+    padding: 10px;
+}

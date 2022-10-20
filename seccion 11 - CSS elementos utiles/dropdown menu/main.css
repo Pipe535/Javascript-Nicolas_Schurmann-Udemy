@@ -1,0 +1,52 @@
+body {
+    background-color: aqua;
+}
+
+/* Estilo del boton */
+.dropdown-btn {
+    background-color: olive;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo a todo el contenido dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo del contenido del dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute; /* Mantener la posicion siempre */
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px black;
+}
+
+/* Todos los links dentro de dropdown-content */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px; /* padding horizontal - padding vertical */
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo a los links cuando se pase el mouse por encima */
+.dropdown-content a:hover{
+    background-color: gainsboro;
+}
+
+/* Estilo del boton al pasar el mouse por encima */
+.dropdown:hover .dropdown-btn {
+    background-color: greenyellow;
+    color: black;
+}
+
+/* Mostrar contenido al pasar el mouse por encima del boton */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+table {
+    width: 100%; /* Utilizar todo el ancho disponible */
+    background-color: white;
+    border-collapse: collapse; /* Tipos de bordes de la tabla */
+}
+
+/*
+    Las filas van a tener las siguiente propiedad de forma intercalada
+    (una si otra no)
+*/
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
+
+td {
+    border: 1px solid black; /* Agregar borde a las filas */
+}
+
+/* 
+    Pata los elementos 'th' dentro de la etiqueta 'table'
+*/
+table th {
+    background-color: orange;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

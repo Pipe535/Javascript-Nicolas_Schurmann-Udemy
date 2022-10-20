@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+}
+
+/* Dar estilo a los input de tipo text */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+    /* Cuadro se queda dentro de pantalla al achicar pagina */
+    box-sizing: border-box; 
+}
+
+/* Dar estilo a los input de tipo submit */
+input[type=submit] {
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Dar estilo a <div> con clase box */
+.box {
+    background-color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px gray;
+}
+
+/* Estilo para los <textarea> */
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+    /* Cuadro se queda dentro de pantalla al achicar pagina */
+    box-sizing: border-box; 
+}

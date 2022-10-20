@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+}
+
+/* Dar un estilo generico a la etiqueta 'a' */
+a {
+    color: seagreen;
+}
+
+/* 
+    Cuando el link no ha sido visitado 
+    tendrá las siguientes propiedades
+*/
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/*
+    Cuando el link ha sido visitado
+    tendrá las siguientes propiedades
+*/
+a:visited {
+    color: blue;
+}
+
+/*
+    Cuando se pone el puntero encima del link
+*/
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: orange;
+}
+
+/*
+    Cuando se da click al link  
+*/
+a:active {
+    color: greenyellow;
+}

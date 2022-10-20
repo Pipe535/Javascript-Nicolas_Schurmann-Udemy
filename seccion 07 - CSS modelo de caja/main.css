@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+}
+
+/* 
+    margin
+    Generar separacion en todas direcciones
+    
+    padding
+    Generar separacion por dentro
+*/
+.caja {
+    background-color: lime;
+
+    margin: 20px;                   /*separacio fuera*/
+    padding: 15px;                  /*separacion dentro*/
+
+    border-style: solid;            /*tipo de borde*/
+    border-width: 5px;              /*tamaño borde*/
+    border-left: 6px solid red;   /*propiedades de borde izquierdo*/  
+    border-radius: 9px;             /*redondear bordes*/
+
+    height: 100px;                  /*altura de la caja*/
+    width: 150px;                   /*anchura de la caja*/
+
+    color: blue;                  /*color de la letra*/
+
+}

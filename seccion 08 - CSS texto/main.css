@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    color: blue;          /* Cambiar color de letra */
+    text-align: center;     /* Alinear texto */
+    text-indent: 15px;      /* Identar el texto de la primera linea */
+    line-height: 30px;      /* Separacion entre lineas */
+    word-spacing: 20px;     /* Separación entre las palabras */
+
+    /* Desplazamiento a derecha | desplazamiento abajo | difuminación */
+    text-shadow: 5px 2px 5px black; 
+
+    /* Cambiar la fuente de texto */
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: italic;  /* Estilo de la fuente */
+    font-size: 1.5em;    /* Tamaño de la letra (Recomendable utilizar medida 1em(16px))*/
+    font-weight: bold;    /* Ancho del texto */
+}
+
+a {
+    text-decoration: line-through;      /* Agregar decoración al texto */
+    text-transform: uppercase;          /* Transformar texto Mayus/Minus */
+    letter-spacing: 5px;                /* Separacion entre las letras */
+}

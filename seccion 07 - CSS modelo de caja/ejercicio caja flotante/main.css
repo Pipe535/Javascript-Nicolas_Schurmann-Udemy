@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+
+.caja {
+    background-color: white;
+    border-style: none ridge ridge ridge;
+    border-width: 5px;
+    border-radius: 10px
+}
+
+.cabecera {
+    padding: 10px;
+}
+
+.contenido {
+    padding: 10px; 
+}
+
+.aceptar {
+    padding: 10px; 
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.cancelar {
+    padding: 10px; 
+    margin: 10px;
+    background-color: gray;
+    color: white;
+}

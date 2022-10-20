@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+/* Dar estilo a <div> con clase fondo */
+.fondo {
+
+    /* Altura del fondo */
+    height: 400px;
+
+    /* Cambiar color de fondo */
+    background-color: beige;
+
+    /* Dar fondo con imagen */
+    background-image: url('http://placekitten.com/200/300');
+
+    /* Que la imagen no se repita */
+    background-repeat: no-repeat;
+
+    /* Posicion que tendrá la imagen */
+    background-position: center center;
+
+    /* Que la imagen baje cuando uno haga scroll */
+    background-attachment: fixed;
+
+    /* Que la imagen ocupe todo el espacio disponible */
+    background-size: cover;
+}
