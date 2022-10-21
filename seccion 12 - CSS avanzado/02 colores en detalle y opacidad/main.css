@@ -5,24 +5,10 @@ body {
 /* Dar estilo a <div> con clase fondo */
 .fondo {
 
-    /* Altura del fondo */
-    height: 400px;
+    /* Color de fondo con rgba(color, color, color, opacidad<entre 0 y 1> )*/
+    /* background-color: rgba(0,0,255,0.7); */
 
-    /* Cambiar color de fondo */
-    background-color: beige;
+    /* Color de fondo con hsl(color<0-360>, saturacion, luminicidad)*/
+    background-color: hsl(256, 16%, 53%);    
 
-    /* Dar fondo con imagen */
-    background-image: url('http://placekitten.com/200/300');
-
-    /* Que la imagen no se repita */
-    background-repeat: no-repeat;
-
-    /* Posicion que tendrá la imagen */
-    background-position: center center;
-
-    /* Que la imagen baje cuando uno haga scroll */
-    background-attachment: fixed;
-
-    /* Que la imagen ocupe todo el espacio disponible */
-    background-size: cover;
 }

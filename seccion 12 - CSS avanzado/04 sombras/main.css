@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+}
+
+/* Dar estilo a <div> con clase box */
+.box {
+
+    /* Posicion vertical | posicion horizontal | difuminación */
+    box-shadow: 2px 2px 4px blue;
+}
+
+.text {
+    color: white;
+    text-shadow: 2px 2px 4px blue;
+}

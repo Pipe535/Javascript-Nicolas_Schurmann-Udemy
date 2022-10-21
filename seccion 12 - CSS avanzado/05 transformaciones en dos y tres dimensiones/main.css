@@ -1,0 +1,45 @@
+body {
+    background-color: aqua;
+}
+
+/* Aplicar propiedad de transform, (solo para los display: block) */
+.box {
+    width: 100px;
+    height: 100px;
+
+    background-color: honeydew;
+    box-shadow: 1px 2px 2px black;
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+    /* DOS DIMENSIONES */
+
+    /* Rotar el <div> con clase box, deg->angulo */
+    /* transform: rotate(20deg); */
+
+    /* Mover el <div> con clase box, movimiento en eje x, movimiento en eje y */
+    /* transform: translate(150px, 100px); */
+
+    /* Cambiar las dimensiones, dimension en vertical, horizontal */
+    /* transform: scale(2,2); */
+
+    /* Retorcer el elemento */
+    /* transform: skewX(25deg); */
+
+
+    /* TRES DIMENSIONES */
+
+    /* Rotar hacia adelante o atras <div> con clase box, deg->angulo */
+    transform: rotateY(60deg);
+
+    /* Mover el <div> con clase box, movimiento en eje x, movimiento en eje y */
+    /* transform: translate(150px, 100px); */
+
+    /* Cambiar las dimensiones, dimension en vertical, horizontal */
+    /* transform: scale(2,2); */
+
+    /* Retorcer el elemento */
+    /* transform: skewX(25deg); */
+}

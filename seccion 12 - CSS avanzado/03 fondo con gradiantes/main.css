@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+}
+
+/* Dar estilo a <div> con clase fondo */
+.fondo {
+
+    /* Ocupar gradiantes de colores  (direccion color 1,  color 2, color...) */
+    background-image: linear-gradient(to left,blue,white,yellow);
+
+}

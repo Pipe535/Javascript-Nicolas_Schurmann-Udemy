@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+/* Aplicar propiedad de transition */
+.box {
+    width: 100px;
+    height: 100px;
+
+    background-color: honeydew;
+    box-shadow: 1px 2px 2px black;
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+    /* Propiedad que se quiere aplicar, tiempo que dure */
+    transition: 0.3s;
+
+    /* Cuanto tiempo se retrase la transition */
+    transition-delay: 0.2s;
+
+}
+
+.box:hover {
+    transform: scale(1.05, 1.05);
+    background-color: azure;
+}

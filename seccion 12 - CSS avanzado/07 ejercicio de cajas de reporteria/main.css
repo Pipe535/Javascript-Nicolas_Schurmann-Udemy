@@ -1,0 +1,61 @@
+body {
+    background-color: aqua;
+}
+
+.cajaUno {
+    background-color: aliceblue;
+    border-left: 3px solid red;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+
+    transition: 0.3s;
+    transition-delay: 0.2s;
+
+    box-shadow: 1px 2px 1px black;
+
+}
+.cajaUno:hover {
+    transform: scale(1.05, 1.05);
+}
+
+
+.cajaDos {
+    background-color: aliceblue;
+    border-left: 3px solid green;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+
+    transition: 0.3s;
+    transition-delay: 0.2s;
+
+    box-shadow: 1px 2px 1px black;
+}
+
+.cajaDos:hover {
+    box-shadow: 2px 3px 1px black;
+}
+
+.cajaTres {
+    background-color: aliceblue;
+    border-left: 3px solid blue;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+
+    transition: 0.3s;
+    transition-delay: 0.2s;
+
+    box-shadow: 1px 2px 1px black;
+}
+
+.cajaTres:hover {
+    background-color: aquamarine;
+}
