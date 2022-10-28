@@ -1,0 +1,35 @@
+body {
+    width: 200px;
+}
+
+
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.primero {
+    /* Por defecto todas la propiedad order  es 0 */
+    /* El orden va desde el menor al mayor, primero los 0 < 1 < 2 etc... */
+    order: 1;
+}
+
+.segundo {
+    
+}
+
+.tercero {
+    order: 5;
+}

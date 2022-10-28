@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px 20px;
+
+}
+
+.element {
+    background-color: coral;
+}
+
+/* Asignar propiedades para expandir elemento, en este caso elemento 1 */
+
+.header {
+
+    /* Indicar numero de columnas donde empezará  y terminará*/
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    /* Indicar numero de filas donde empezará  y terminará*/
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

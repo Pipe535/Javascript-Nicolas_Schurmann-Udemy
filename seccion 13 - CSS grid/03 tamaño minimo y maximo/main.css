@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    /* 
+        Asignar tamaño minimo y maximo a las filas y columnas
+    */
+    grid-template-rows: minmax(30px, 150px);
+    grid-template-columns: minmax(30px, 150px);
+
+}
+
+.element {
+    background-color: coral;
+}

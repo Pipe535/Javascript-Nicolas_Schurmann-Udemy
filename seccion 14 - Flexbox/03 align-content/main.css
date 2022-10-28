@@ -1,0 +1,28 @@
+body {
+    width: 200px;
+}
+
+
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    /* align-items: stretch; */
+
+    height: 200px;
+
+    /* Indicar como distribuir el contenido dentro de los 200px */
+    align-content: center;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

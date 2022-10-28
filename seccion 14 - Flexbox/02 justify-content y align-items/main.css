@@ -1,0 +1,24 @@
+body {
+    width: 200px;
+}
+
+
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+
+    flex-flow: row wrap;
+
+    /* Alinear contenido de flexbox */
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

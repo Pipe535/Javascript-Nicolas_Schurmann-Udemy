@@ -1,0 +1,18 @@
+body {
+    width: 200px;
+}
+
+
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+
+    /* Dirección que tomaran los elementos */
+    /* flex-direction: column; */
+
+    /* Elementos fuera del rango del body, pasarán a la siguiente fila */
+    /* flex-wrap: wrap; */
+
+    /* Ocupar flex-direction y flex-wrap en una linea */
+    flex-flow: row wrap;
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+
+/* 
+    Activar funcionalidad de grid  
+    grid -> ocupar todo el ancho disponible
+    inline-grid -> ocupar solo el espacio de la etiqueta
+*/
+.grid {
+    display: inline-grid;
+}
+
+.element {
+    background-color: coral;
+}

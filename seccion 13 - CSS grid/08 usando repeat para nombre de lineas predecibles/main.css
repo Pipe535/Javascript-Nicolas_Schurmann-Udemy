@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    /* 
+        Dar nombre a las lineas de las filas y columnas con repear. 
+        Repetir dos veces row-inicio y la siguiente linea tendrá row-fin
+    */
+    grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]);
+    grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);
+    grid-gap: 20px 20px;
+
+}
+
+.element {
+    background-color: coral;
+}
+
+/* Asignar propiedades para expandir elemento, en este caso elemento 1 */
+
+.header {
+
+    /* Indicar numero de columnas donde empezará  y terminará*/
+    grid-column-start: col-inicio;
+    grid-column-end: col-fin 3;
+
+    /* Indicar numero de filas donde empezará  y terminará*/
+    grid-row-start: row-inicio;
+    grid-row-end: row-fin 3;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    /* 
+        Valor de fila, 50px la primera fila, 100px la segunda fila,
+        y así con más valores, si no se dan más valores, se tomaran
+        los demas valores de forma automática dependiento de la 
+        etiqueta
+    */
+    /* grid-template-rows: 50px 100px; */
+
+    /* 
+        Valor de columna, 90px la primera columna, 50 la segunda 
+        columna y así con más valores, si no se dan más valores, 
+        se tomaran las etiquetas faltantes colocandolas debajo 
+    */
+    /* grid-template-columns: 90px 50px 120px; */
+
+    /* 
+        Otra forma de ocupar es con fracciones, ocupando todo el ancho
+        y dividirlo en fracciones
+        1fr 2fr 3fr = 6 total de ancho
+    */
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.element {
+    background-color: coral;
+}

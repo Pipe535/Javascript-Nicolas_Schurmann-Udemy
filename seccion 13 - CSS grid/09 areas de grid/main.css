@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    /* Como distribuir el ara de grid */
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+
+

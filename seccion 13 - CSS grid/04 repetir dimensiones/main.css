@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+
+    /* 
+        Repetir valores de manera indefinida para los elementos 
+        repeat(cuantas veces se quiere repetir, que se quiere repetir)
+    */
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: repeat(4, 150px);
+
+}
+
+.element {
+    background-color: coral;
+}

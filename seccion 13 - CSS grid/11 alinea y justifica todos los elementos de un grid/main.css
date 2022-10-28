@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+
+    display: grid;
+
+    /* Como distribuir el ara de grid */
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+
+    /* 
+    Todas las filas que no se definan de manera explicita
+    tendrán un valor de 140px
+    */
+    grid-auto-rows: 140px;
+
+    /* Tomar el contenido y colocarlo al centro */
+    justify-items: center;
+    align-items: center;
+
+}
+
+.red {
+    background-color: red;
+}
+
+/* Alinear un solo elemento */
+.item-1 {
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+

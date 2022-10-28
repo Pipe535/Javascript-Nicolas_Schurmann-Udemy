@@ -1,0 +1,27 @@
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.primero {
+    /* Asignar flex-grow y flex-basis en una sola linea */
+    flex: 1 50px;
+}
+
+.cuarto {
+    flex-grow: 2;
+
+    /* Alinear contenido del cuarto elemento */
+    align-self: flex-end;
+}

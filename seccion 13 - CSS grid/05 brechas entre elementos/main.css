@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    /* Agregar espacio en blanco entre los elementos */
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+
+    /* Lo mismo, pero en una propiedad fila | columna*/
+    grid-gap: 20px 20px;
+
+}
+
+.element {
+    background-color: coral;
+}

@@ -1,0 +1,24 @@
+/* Asignar propiedad de flex */
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.primero {
+    /* Crecer de manra dinámica dependiendo del espacio disponible */
+    flex-grow: 1;
+}
+
+.cuarto {
+    flex-grow: 2;
+}

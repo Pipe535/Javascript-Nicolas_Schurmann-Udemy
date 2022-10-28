@@ -1,0 +1,4 @@
+Para ejecutar programas js
+
+1. En cmd, ingresar a la ruta dunde esta el archivo js
+2. escribir node 'nombreArchivo.js'
