@@ -1,0 +1,14 @@
+
+TIPOS DE DATOS EN JAVASCRIPT
+
+01. String -> Cadena de caracteres
+
+02. Boolean -> true o false
+
+03. Null -> Valor de nulo
+
+04. Number -> Tipo de dato numérico
+
+05. Undefined -> Variable que no se encuentra definido
+
+06. Object -> Variable tipo objeto
