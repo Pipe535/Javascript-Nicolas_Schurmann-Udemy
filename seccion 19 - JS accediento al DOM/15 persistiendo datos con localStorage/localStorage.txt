@@ -1,0 +1,8 @@
+localStorage para guardar datos dentro de la página web
+aunque esta ya se recargué o se actualice
+
+                    (para llamar el elemento, contenido del elemento)
+localStorage.setItem('lala', 'Elemento 1');
+
+localStorage.getItem('lala');
+va a devolver 'Elemento 1'

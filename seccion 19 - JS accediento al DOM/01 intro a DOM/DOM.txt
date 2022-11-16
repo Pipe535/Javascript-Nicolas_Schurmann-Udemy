@@ -1,0 +1,7 @@
+¿QUE ES EL DOM?
+El DOM es todo el arbol html que se tiene dentro de una página construida,
+lo que se encuentra al inspeccionar una pagina web, contiene el html, css,
+propiedades.
+
+El DOM tambien contiene una interfaz de programación estandar, donde se tiene
+las propiedades html, metodos, eventos, etc
