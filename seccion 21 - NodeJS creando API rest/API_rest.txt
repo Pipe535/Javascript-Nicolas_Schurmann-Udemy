@@ -1,0 +1,40 @@
+QUE ES UNA API REST
+
+Conceptos Basicos:
+
+Cliente -> Quien consume la API rest, por ejemplo, celular, pc, etc.
+se conecta a la API rest, esta buscará los datos pedidos por el cliente
+se los devuelve a la API rest, y esta al cliente
+
+Base de datos -> Donde almacenar los datos
+
+-------------------------------------------------
+
+FORMAS DE CONECTARSE
+
+Verbos:
+
+GET /users                             /users/:id
+Listar arreglo con los usuarios     Listado de un solo usuario
+
+POST /users
+Crear Usuarios
+
+PUT /users/:id
+Reemplazar un usuario ya existente
+
+PATCH /users/:id
+Actualizar usuario
+
+DELETE /users/:id
+Eliminar un usuario
+
+----------------------------------------
+
+Inicializar API rest
+
+en terminar, dentro de la carpeta del proyecto colocar:
+npm init -y
+
+Instalar algunas dependencias
+npm install -S express

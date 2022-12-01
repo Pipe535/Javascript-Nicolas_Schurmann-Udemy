@@ -1,0 +1,12 @@
+
+Promise -> sincrona
+new Promise -> asincrona
+En lugar de llamar a Promise, se llama a new Promise
+
+Va a recibir una funcion 
+
+new Promise( (resolve, reject) => {
+    Se quiere resolver la promesa luego de un seg
+    setTimeOut( () => resolve(2), 1000 )
+} ).then(z => console.log(x))
+.catch(e => console.error(e))

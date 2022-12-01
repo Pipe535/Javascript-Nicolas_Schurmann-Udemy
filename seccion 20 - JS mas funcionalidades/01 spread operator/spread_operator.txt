@@ -1,0 +1,16 @@
+Se utiliza para crear una copia exacta de un objeto, pero que esta
+copia no altere a la anterior.
+
+Por ejemeplo:
+
+Crear una constante que contiene un objeto que vale 1
+const a = { b: 1 }
+
+Crear constante que sea igual
+const b = a
+
+a y b van a valer lo mismo
+
+Sintaxix para referenciar que c tenga propiedades de a, pero que 
+sean distintos
+const c = { ...a }

@@ -1,0 +1,10 @@
+
+.catch va a recibir un mensaje de error
+
+.reject para que se salte todas las operaciones y pase
+inmediatamente al .catch
+
+Rechazar la cadena en algún then, y se interrumpa
+
+Promise.resolve(2).then(valor => promise.reject(valor))
+.catch(e => console.error(e))

@@ -1,0 +1,9 @@
+Promesa: UNa promesa es un valor que se va a resolver eventualmente
+en el futuro
+
+Con .resolve se resuelve el 2 en el futuro, con .then va a obtener
+el valor de la promesa (.resolve) para ejecutar una funcion
+
+Resolver 2, guardar la promesa en variable valor y mostrarlo
+
+Promise.resolve(2).then(valor => console.log(valor))

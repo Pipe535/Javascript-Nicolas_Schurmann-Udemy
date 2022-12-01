@@ -1,0 +1,8 @@
+
+.catch va a recibir un mensaje de error
+
+.reject para que se salte todas las operaciones y pase
+inmediatamente al .catch
+
+Promise.reject(2).then(valor => console.log(valor))
+.catch(e => console.error(e))
